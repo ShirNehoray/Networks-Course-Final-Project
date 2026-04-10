@@ -31,7 +31,7 @@ The script `Bartomeus_1_full_code.R` runs the full analysis in five sequential s
 
 2. **Threshold optimisation** — Classification metrics (precision, recall, F0.5, balanced accuracy, MCC, specificity) are evaluated across probability thresholds to identify the optimal threshold.
 
-3. **Within-network evaluation** — Model performance is assessed using confusion matrix components (TP, FP, TN, FN), ROC-AUC, and PR-AUC, averaged across bootstrap iterations for each layer.
+3. **Within-network evaluation** — Model performance is assessed using confusion matrix components (TP, FP, TN, FN), averaged across bootstrap iterations for each layer.
 
 4. **Cross-network validation** — Predicted interactions in each target layer are cross-referenced against observations from all other layers, and classified into eight ecologically interpretable categories (e.g., recurrent, locally unique, model-elusive, probably missing, possibly forbidden).
 
