@@ -42,10 +42,10 @@ The script `Bartomeus_1_full_code.R` runs the full analysis in five sequential s
 | Parameter | Value | Description |
 |---|---|---|
 | `Study_id_chose` | `1_Bartomeus` | Study selected from EuPPollNet |
-| `n_sim` | 100 | Number of bootstrap iterations |
+| `n_sim` | 100 | Number of iterations |
 | `prop_ones_to_remove` | 0.20 | Proportion of links withheld per iteration |
 | `k` | 2 | Rank for SVD matrix completion |
-| `lambda` | λ₀ | Regularisation parameter (upper bound) |
+| `lambda` | λ₀ | Regularisation parameter |
 | `seed` | 123 | Random seed for reproducibility |
 
 ## Data
