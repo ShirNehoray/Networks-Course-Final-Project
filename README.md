@@ -50,7 +50,7 @@ The script `Bartomeus_1_full_code.R` runs the full analysis in five sequential s
 
 ## Data
 
-Input data (`Interaction_edges.csv`) is sourced from the **EuPPollNet** database (Lanuza et al., 2025), a European plant–pollinator interaction database containing over 1.1 million interactions across 1,864 networks. The data can be accessed at:
+Input data (`Interaction_edges.csv`) were derived from 'Interaction_data.csv' sourced from the the **EuPPollNet** database (Lanuza et al., 2025), a European plant–pollinator interaction database containing over 1.1 million interactions across 1,864 networks. The data can be accessed at:
 
 > Lanuza et al. (2025). EuPPollNet: A European database of plant–pollinator networks. *Global Ecology and Biogeography*.  https://doi.org/10.1111/geb.70000
 
