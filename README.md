@@ -27,13 +27,13 @@ Ecological interaction networks are inherently incomplete. This project applies 
 
 The script `Bartomeus_1_full_code.R` runs the full analysis in five sequential steps:
 
-1. **Prediction** — For each of the 12 network layers, a bipartite interaction matrix is constructed, and 20% of interactions and an equal number of non-interactions are withheld per bootstrap iteration (n = 100). Missing links are predicted using soft-thresholded SVD via the softImpute package.
+1. **Prediction** — For each of the 12 network layers, a bipartite interaction matrix is constructed, and 20% of interactions and an equal number of non-interactions are withheld per bootstrap iteration (n = 100). Missing links are predicted using SVD via the softImpute package.
 
 2. **Threshold optimisation** — Classification metrics (precision, recall, F0.5, balanced accuracy, MCC, specificity) are evaluated across probability thresholds to identify the optimal threshold.
 
-3. **Within-network evaluation** — Model performance is assessed using confusion matrix components (TP, FP, TN, FN), averaged across bootstrap iterations for each layer.
+3. **Within-network evaluation** — Model performance is assessed using confusion matrix components (TP, FP, TN, FN).
 
-4. **Cross-network validation** — Predicted interactions in each target layer are cross-referenced against observations from all other layers, and classified into eight ecologically interpretable categories (e.g., recurrent, locally unique, model-elusive, probably missing, possibly forbidden).
+4. **Cross-network validation** — Predicted interactions in each target layer are validated against observations from all other layers, and classified into eight ecologically interpretable categories (e.g., recurrent, locally unique, model-elusive, probably missing, possibly forbidden).
 
 5. **Visualisation** — Results are visualised as threshold curves, boxplots and an alluvial plot.
 
