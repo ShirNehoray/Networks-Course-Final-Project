@@ -9,10 +9,13 @@ Ecological interaction networks are inherently incomplete. This project applies 
 
 ```
 
-├── Bartomeus_1_full_code.R                     # Main analysis script
-├── k_sensitivity_analysis.R                    # Sensitivity analysis for model parameters
+Networks-Course-Final-Project/
+├── README.md                                   # Project documentation
 ├── Interaction_edges.csv                       # Network interaction data
 ├── predictions_1_Bartomeus_weighted_1.rds      # Model predictions output
+├── code/                                       # R scripts
+│   ├── Bartomeus_1_full_code.R                 # Main analysis script
+│   └── k_sensitivity_analysis.R                # Sensitivity analysis for model parameters
 └── plots_output_Bartomeus_1/                   # Results plots
     ├── k_overall_sensitivity_Bartomeus_1.pdf
     ├── k_sensitivity_swap_Bartomeus_1.pdf
